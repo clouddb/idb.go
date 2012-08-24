@@ -4,7 +4,7 @@ package main
 import (
         "fmt"
         //"xattr"
-        "iDB"
+        "idb"
         "flag"
 )
 

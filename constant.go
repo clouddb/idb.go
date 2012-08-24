@@ -1,9 +1,9 @@
 /* the Constants of the iDB */
-package iDB
+package idb
 
 const (
-    DBDirPerm       = 0755      //permission for creating database directory
-    DBFilePerm      = 0666      //permission for database file
+    DBDirPerm       = 755      //permission for creating database directory
+    DBFilePerm      = 666      //permission for database file
     XattrPrefix     = "user."   //the Xattr key name prefix
 )
 
